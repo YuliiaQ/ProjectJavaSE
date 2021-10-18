@@ -2,10 +2,8 @@ package ua.intita.qa.homework10;
 
 import org.junit.Test;
 
-import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-import static org.junit.Assert.*;
 
 public class AlphabetOrderTest {
 

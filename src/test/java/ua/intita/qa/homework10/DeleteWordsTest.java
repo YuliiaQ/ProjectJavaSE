@@ -2,7 +2,6 @@ package ua.intita.qa.homework10;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 
 public class DeleteWordsTest {
     String text = "If you are still willing to set up your environment for Java programming language, then this section guides \n" +
