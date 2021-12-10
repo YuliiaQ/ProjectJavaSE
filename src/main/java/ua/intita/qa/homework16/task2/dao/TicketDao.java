@@ -15,7 +15,7 @@ public class TicketDao implements CommonDao <Ticket> {
         if (result != null){
             result.setPlaceOfDeparture(ticket.getPlaceOfDeparture());
             result.setPlaceOfDestination(ticket.getPlaceOfDestination());
-            result.setDateAndTime(ticket.getDateAndTime());
+            result.setDateTime(ticket.getDateTime());
             result.setPrice(ticket.getPrice());
         }
         tickets.put(ticket.getTicketId(), ticket);
@@ -29,7 +29,7 @@ public class TicketDao implements CommonDao <Ticket> {
 
     @Override
     public Collection<Ticket> findAll() {
-        return (Collection<Ticket>) tickets.values();
+        return tickets.values();
     }
 
     @Override

@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.time.LocalDateTime;
+
 @AllArgsConstructor
 @Getter
 @Setter
@@ -13,7 +15,7 @@ public class Ticket {
     private String ticketId;
     private String placeOfDeparture;
     private String placeOfDestination;
-    private String dateAndTime;
+    private LocalDateTime dateTime;
     private double price;
 
 }
