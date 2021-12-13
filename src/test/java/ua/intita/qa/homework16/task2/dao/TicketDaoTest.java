@@ -1,5 +1,6 @@
 package ua.intita.qa.homework16.task2.dao;
 
+<<<<<<< HEAD
 import static org.junit.Assert.*;
 import org.junit.Test;
 import ua.intita.qa.homework16.task2.entity.Ticket;
@@ -58,5 +59,16 @@ public class TicketDaoTest {
         }
 
         System.out.println(allTickets);
+=======
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class TicketDaoTest {
+
+    @Test
+    public void save() {
+        // todo
+>>>>>>> origin/HomeWork_Lesson16
     }
 }
